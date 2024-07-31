@@ -1,0 +1,63 @@
+* , *::after , *::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: black;
+    background-color: #19172e;
+    font-family: 'Fira Code';
+    font-weight: bold;
+}
+.heading{
+    color: white;
+    padding-top: 10px;
+    font-size: 2rem;
+    text-align: center;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn{
+    background: #333;
+    color: white;
+    padding: 15px 60px;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.copy {
+    color: white;
+    padding: 15px 20px;
+    font-size: 1.5rem;
+    margin: 20px auto;
+    background: #333;
+    cursor: not-allowed;
+    border-radius: 5px;
+    border: none;
+    user-select: none;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    width: 33.3%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #19172e;
+    border: 2px solid #19172e;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
